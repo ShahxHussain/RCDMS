@@ -119,8 +119,8 @@ Upload a replacement or modified part and view the final result.
 
 1. **Clone the Repository**
    ```bash
-   git clone <your-repo-url>
-   cd "Machine Learning Hackathon"
+   git clone https://github.com/ShahxHussain/RCDMS
+   cd "RCDMS"
    ```
 2. **(Optional) Create a Virtual Environment**
    ```bash
@@ -136,7 +136,7 @@ Upload a replacement or modified part and view the final result.
    ```
    _If you don't have a requirements.txt, install at least:_
    ```bash
-   pip install flask torch torchvision opencv-python numpy
+   pip install flask ultralytics segment-anything opencv-python numpy pillow matplotlib
    ```
 4. **Run the App**
    ```bash
@@ -144,7 +144,6 @@ Upload a replacement or modified part and view the final result.
    ```
 5. **Open in Browser**
    - Go to [http://127.0.0.1:5000/](http://127.0.0.1:5000/) to see the landing page.
-   - Click "Get Started" to use the main app.
 
 ---
 
