@@ -1,0 +1,8 @@
+opencv-python
+ultralytics
+segment-anything
+matplotlib
+base64
+Pillow
+numpy
+flask
